@@ -3,7 +3,7 @@ use bitcoin::util::bip32::ExtendedPubKey;
 use bitcoin::{
     network::constants::Network,
     util::bip32::{DerivationPath, ExtendedPrivKey},
-    PublicKey,
+    PublicKey, 
 };
 use clap::{Args, Parser, Subcommand, ValueEnum};
 use eth_keystore::encrypt_key;
