@@ -1,6 +1,6 @@
 use bip39::{Language, Mnemonic, MnemonicType, Seed};
 use bitcoin::util::bip32::ExtendedPubKey;
-use bitcoin::{
+use bitcoin::{ 
     network::constants::Network,
     util::bip32::{DerivationPath, ExtendedPrivKey},
     PublicKey, 
